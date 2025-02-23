@@ -1,0 +1,17 @@
+@import './scss/mixin.scss';
+
+:root {
+  --color-bg: #deb8f7;
+  --color-front: #dbd98c;
+  --color-white: #eee;
+  --color-black: #0d0d0d;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+  scrollbar-color: #eee transparent;
+}
